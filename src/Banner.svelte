@@ -24,16 +24,17 @@
         justify-content: space-between;
     }
     #banner > div {
-        margin: 50px 100px;
+        margin: 50px 30px 0 70px;
     }
     
     p {
-        font-size: 50px;
+        font-size: 38px;
         margin: 0 0 15px 0;
         color: #314259;
     }
-
+    
     p:first-child {
+        font-size: 45px;
         font-weight: 700;
     }
 
