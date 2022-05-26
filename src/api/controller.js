@@ -23,7 +23,6 @@ const postCall = (req, res) => {
     phone["name"] = req.body.name;
     phone["number"] = req.body.phone;
     phones.push(phone);
-    console.log(phone);
 }
 
 module.exports = {main, getService, getServices, getServiceCount, postCall};
