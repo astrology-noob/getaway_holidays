@@ -32,7 +32,7 @@
 
 <style>
     .icon {
-        height: 150px;
+        height: 80px;
     }
     
     .morn {

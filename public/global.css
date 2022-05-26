@@ -29,7 +29,7 @@ main {
 	max-width: 100vw;
 	height: calc(100vh - 120px);
     display: grid;
-    grid-template-columns: calc(100vw - 1210px) 600px 600px;
+    grid-template-columns: max(calc(100vw - 1210px), 450px) 600px 600px;
 	column-gap: 5px;
 	row-gap: 5px;
     grid-template-rows: calc(50vh - 65px) calc(50vh - 60px);
@@ -79,6 +79,12 @@ p {
 .slick-prev {
 	left: 0 !important;
 	z-index: 2;
+}
+
+@media screen and (max-width: 1660px) {
+	main {
+		grid-template-columns: calc(100vw - 810px) 400px 400px;
+	}
 }
 
 @media screen and (max-width: 600px) {
