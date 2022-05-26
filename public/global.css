@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+	font-weight: 700;
+}
+
+.logo {
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+}
+
+button {
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.wrapper {
+    width: 100vw;
+}
+
+header {
+    padding: 0 100px;
+}
+
+main {
+	max-width: 100vw;
+	height: calc(100vh - 120px);
+    display: grid;
+    grid-template-columns: calc(100vw - 1210px) 600px 600px;
+	column-gap: 5px;
+	row-gap: 5px;
+    grid-template-rows: calc(50vh - 65px) calc(50vh - 60px);
+}
+
+p { 
+	font-weight: 300;
+}
+
+.top_menu, footer {
+	height: 60px;
+}
+
+.slider {
+	width: 100%;
+	height: 100%;
+}
+
+.slick-list, .slick-slide, .slick-track, .slick-slide > div {
+	height: 100% !important;
+}
+
+.slider-elem {
+	height: 100%;
+	width: 100%;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+}	
+
+.slick-next, .slick-prev {
+	background-color: transparent !important;
+	height: 100% !important;
+	width: 75px !important;
+	transition: 0.4s;
+}
+
+.slick-next:hover, .slick-prev:hover {
+	background-color: #00000030 !important;
+	transition: 0.4s;
+}
+
+.slick-next {
+	right: 0 !important;
+}
+
+.slick-prev {
+	left: 0 !important;
+	z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+	
+	body , .wrapper, main{
+		display: flex;
+		flex-direction: column;
+	}
+
+	header {
+		padding: 0 20px;
+	}
+
+	.logo {
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	main { 
+		height: auto;
+	}
+
+	main > div {
+		width: 100%;
+		height: 500px;
+	}
+}
