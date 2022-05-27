@@ -35,7 +35,7 @@
         height: 100px;
         width: 100%;
         border: none;
-        font-family: 'Comfortaa', sans-serif;
+        font-family: 'Fira Sans Condensed', sans-serif;
         font-size: 30px;
         color: #314259;
         transition: 0.3s;

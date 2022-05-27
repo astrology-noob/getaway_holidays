@@ -18,7 +18,7 @@
         color: #314259;
         transition: 0.3s;
         background: white;
-        font-family: 'Comfortaa', sans-serif;
+        font-family: 'Fira Sans Condensed', sans-serif;
     }
 
     button:hover {

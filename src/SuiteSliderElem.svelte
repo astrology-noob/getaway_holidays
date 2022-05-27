@@ -106,7 +106,7 @@
         border: none;
         border-radius: 10px;
         height: 50px;
-        font-family: 'Comfortaa', sans-serif;
+        font-family: 'Fira Sans Condensed', sans-serif;
         font-size: 25px;
         padding: 10px 30px;
         transition: 0.3s;
