@@ -22,15 +22,18 @@
     }
 
     p:first-child {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 0;
     }
 
     p:last-child {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     button {
+        max-height: 60px;
         background: white;
         height: 100px;
         width: 100%;
